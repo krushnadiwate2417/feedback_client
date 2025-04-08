@@ -2,7 +2,7 @@ import { GET_URL } from "../constants/constant";
 import { useState } from "react";
 import Loader from "./Loader";
 import { useNavigate } from "react-router-dom";
-import FeedbackCard from "./FeedbackCards";
+import FeedbackCard from "./FeedBackCards";
 
 const Admin = () => {
   const [loaderState, setLoaderState] = useState(false);
